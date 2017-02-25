@@ -31,8 +31,8 @@
 vars = {
   "libcxx_trunk":
     "http://llvm.org/svn/llvm-project/libcxx/trunk",
-  "libcxx_release31":
-    "http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_31/final",
+  "libcxx_release33":
+    "http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_33/final",
 }
 
 
@@ -43,7 +43,7 @@ deps = {
     "git+https://github.com/dslab-epfl/cloud9-uclibc.git",
 
   "src/third_party/stp":
-    "git+https://github.com/stp/stp.git@9ab2a59",
+    "git+https://github.com/stp/stp.git",
   "src/third_party/gyp":
     "git+https://chromium.googlesource.com/external/gyp",
   "src/third_party/boolector":
