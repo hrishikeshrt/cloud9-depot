@@ -38,16 +38,16 @@ vars = {
 
 deps = {
   "src/cloud9":
-    "git+https://github.com/dslab-epfl/cloud9.git",
+    "git@github.com/dslab-epfl/cloud9.git",
   "src/klee-uclibc":
-    "git+https://github.com/dslab-epfl/cloud9-uclibc.git",
+    "git@github.com/dslab-epfl/cloud9-uclibc.git",
 
   "src/third_party/stp":
-    "git+https://github.com/stp/stp.git",
+    "git@github.com:stp/stp.git@9ab2a59",
   "src/third_party/gyp":
     "git+https://chromium.googlesource.com/external/gyp",
   "src/third_party/boolector":
-    "git+https://github.com/dslab-epfl/cloud9-boolector.git",
+    "git@github.com/dslab-epfl/cloud9-boolector.git",
 
   # Testing targets
   "src/testing_targets/libcxx":
